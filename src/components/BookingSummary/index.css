@@ -1,0 +1,59 @@
+
+.booking-summary {
+  background: white;
+  padding: 25px;
+  border-radius: 15px;
+  border: 1px solid #dce5ed;
+  box-shadow: 0 3px 10px #00000010;
+}
+
+.booking-summary h2 {
+  color: #14283c;
+  margin-bottom: 20px;
+}
+
+.summary-details p {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin: 18px 0;
+  color: #536273;
+}
+
+.summary-details strong {
+  color: #14283c;
+  text-align: right;
+}
+
+.total-amount {
+  border-top: 1px solid #dce5ed;
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.total-amount h2 {
+  color: #079b87;
+}
+
+.confirm-button {
+  width: 100%;
+  padding: 14px;
+  margin-top: 20px;
+  background: #079b87;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.confirm-button:hover {
+  background: #087967;
+}
+
+.confirm-button:disabled {
+  background: #aab8c4;
+  cursor: not-allowed;
+}

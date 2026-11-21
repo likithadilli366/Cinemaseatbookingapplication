@@ -1,0 +1,40 @@
+.confirmation {
+  width: 100%;
+  max-width: 450px;
+  padding: 30px;
+  background: white;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.confirmation h1 {
+  color: #079b87;
+  margin-bottom: 15px;
+}
+
+.confirmation p {
+  color: #536273;
+  margin: 12px 0;
+}
+
+.confirmation-details {
+  background: #e8faf5;
+  padding: 18px;
+  margin: 20px 0;
+  border-radius: 10px;
+  text-align: left;
+}
+
+.confirmation-details p {
+  color: #14283c;
+  margin: 12px 0;
+}
+
+.confirmation button {
+  background: #079b87;
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}

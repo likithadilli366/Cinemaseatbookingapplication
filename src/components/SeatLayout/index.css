@@ -1,0 +1,116 @@
+
+.seat-layout {
+  background: white;
+  padding: 25px;
+  border-radius: 15px;
+  border: 1px solid #dce5ed;
+}
+
+.screen {
+  width: 80%;
+  margin: 0 auto 35px;
+  padding: 12px;
+  text-align: center;
+  background: #dce6f0;
+  color: #14283c;
+  letter-spacing: 6px;
+  border-radius: 50% 50% 5px 5px;
+  box-shadow: 0 5px 15px #a8bacd;
+}
+
+.seats-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.seat-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 9px;
+}
+
+.row-label {
+  width: 20px;
+  font-weight: bold;
+  color: #14283c;
+}
+
+.seat {
+  width: 36px;
+  height: 34px;
+  border: none;
+  border-radius: 7px 7px 4px 4px;
+  cursor: pointer;
+  font-size: 11px;
+  font-weight: bold;
+}
+
+.available {
+  background: #dce2eb;
+  color: #14283c;
+}
+
+.available:hover {
+  background: #aebdce;
+}
+
+.selected {
+  background: #079b87;
+  color: white;
+}
+
+.booked {
+  background: #f05252;
+  color: white;
+  cursor: not-allowed;
+}
+
+.seat-legend {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.seat-legend span {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 13px;
+}
+
+.seat-legend i {
+  width: 17px;
+  height: 17px;
+  border-radius: 4px;
+}
+
+.available-box {
+  background: #dce2eb;
+}
+
+.selected-box {
+  background: #079b87;
+}
+
+.booked-box {
+  background: #f05252;
+}
+
+@media (max-width: 500px) {
+  .seat-layout {
+    padding: 12px 5px;
+  }
+
+  .seat-row {
+    gap: 5px;
+  }
+
+  .seat {
+    width: 29px;
+    height: 30px;
+  }
+}
