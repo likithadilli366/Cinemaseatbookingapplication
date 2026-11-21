@@ -1,16 +1,38 @@
-# React + Vite
+# 🎬 CineBook – Cinema Seat Booking Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive cinema seat booking application built using React JS. Users can select movies, choose showtimes, book seats, and manage their bookings.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
+[View CineBook](https://cinemaseatbookingapplication.vercel.app)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Features
+- Movie selection and showtime selection.
+- Available, selected, and booked seat display.
+- Select and deselect seats.
+- Prevent booking already-booked seats.
+- Automatic ticket price calculation.
+- Booking summary and confirmation.
+- Edit and cancel bookings.
+- Save booking details using Local Storage.
 
-## React Compiler
+## 🛠️ Technologies
+- React JS
+- JavaScript
+- HTML5
+- CSS3
+- Local Storage
+- Vite
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ⚙️ Installation
 
-## Expanding the ESLint configuration
+```bash
+git clone YOUR_GITHUB_REPOSITORY_URL
+cd cinema-seat-booking
+npm install
+npm run dev
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 👩‍💻 Author
+**Likitha Reddy**
+
+B.Tech – Computer Science and Engineering
